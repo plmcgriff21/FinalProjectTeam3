@@ -1,31 +1,49 @@
-SET ANSI_NULLS ON
-GO
 
-SET QUOTED_IDENTIFIER ON
-GO
+SET NOCOUNT ON;
 
-CREATE TABLE [BlackJack_Games](
-       [Game_Nbr] [int] NULL,
-       [Index_Nbr] [int] NULL,
-       [PlayerNo] [varchar](50) NULL,
-       [card1] [int] NULL,
-       [card2] [int] NULL,
-       [card3] [int] NULL,
-       [card4] [int] NULL,
-       [card5] [int] NULL,
-       [sumofcards] [int] NULL,
-       [dealcard1] [int] NULL,
-       [dealcard2] [int] NULL,
-       [dealcard3] [int] NULL,
-       [dealcard4] [int] NULL,
-       [dealcard5] [int] NULL,
-       [sumofdeal] [int] NULL,
-       [blkjck] [nvarchar](255) NULL,
-       [winloss] [nvarchar](255) NULL,
-       [plybustbeat] [nvarchar](255) NULL,
-       [dlbustbeat] [nvarchar](255) NULL,
-       [plwinamt] [int] NULL,
-       [dlwinamt] [int] NULL,
-       [ply2cardsum] [int] NULL
-) 
-GO
+DECLARE @RcdCnt int, @row int, @i int;
+
+
+
+
+SET @RcdCnt = (SELECT count(*)   FROM [blkjckhands_01]);
+SET @row = 1;
+SET @i = 1;
+
+WHILE @row <= @RcdCnt
+       BEGIN
+              INSERT INTO dbo.BlackJack_Games
+              SELECT 
+                      @i Game_Nbr
+                     ,[Index_Nbr]
+                     ,[PlayerNo]
+                     ,[card1]
+                     ,[card2]
+                     ,[card3]
+                     ,[card4]
+                     ,[card5]
+                     ,[sumofcards]
+                     ,[dealcard1]
+                     ,[dealcard2]
+                     ,[dealcard3]
+                     ,[dealcard4]
+                     ,[dealcard5]
+                     ,[sumofdeal]
+                     ,[blkjck]
+                     ,[winloss]
+                     ,[plybustbeat]
+                     ,[dlbustbeat]
+                     ,[plwinamt]
+                     ,[dlwinamt]
+                     ,[ply2cardsum]
+                FROM [blkjckhands_01]  b
+              where b.Seq between @row AND @row + 5
+
+              SELECT @row = @row + 6
+              SET @i = @i + 1
+       END
+
+
+SELECT *
+FROM BlackJack_Games
+order by Game_Nbr, Index_Nbr, PlayerNo
