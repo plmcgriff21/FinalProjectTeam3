@@ -1,10 +1,9 @@
-# FinalProjectTeam3
+# Blackjack, Are You Feeling Lucky?
 ![alt text](https://github.com/plmcgriff21/FinalProjectTeam3/blob/main/ReadMe-Images/Picture1.png)
 
 
 
-
-Team 3
+## Development Team
 
 [Patrick Beltran](https://github.com/pgbeltran15), [Bandana Deo](https://github.com/deobandana), [Seidi Mohammad](https://github.com/seidiali21), Caitlin Smith, Portia McGriff, Stephanie Hucks
 
