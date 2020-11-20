@@ -1,6 +1,5 @@
 # Blackjack, Are You Feeling Lucky?
-![alt text](https://github.com/plmcgriff21/FinalProjectTeam3/blob/main/ReadMe-Images/Picture1.png)
-
+<img align="left" width="500" height="300" src="https://github.com/plmcgriff21/FinalProjectTeam3/blob/main/ReadMe-Images/Picture1.png">
 
 
 ## Development Team
@@ -11,6 +10,11 @@
 ## Topic: 
 
 Blackjack is a card game often found in casinos and occasionally played for leisure time fun. While winning is great, it is always better when it comes with cold hard cash. This project will analyze the hands (cards received) and strategy across 6 players in 150K rounds of Blackjack (900K rows of data). Ultimately, we’re looking for the best strategy and a forecast of future wins. We’ll dig in by attempting to answer the questions below. 
+
+
+
+
+
 
 ## Player Assignment for Analysis
 
