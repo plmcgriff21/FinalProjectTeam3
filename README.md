@@ -18,7 +18,7 @@ Player 1 Caitlin
 
 Player 2 Seidi
 
-PLayer 3 Patrick
+Player 3 Patrick
 
 Player 4 Portia
 
