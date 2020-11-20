@@ -5,7 +5,8 @@
 
 
 Team 3
-Patrick Beltran, Bandana Deo, Seidi Mohammad, Caitlin Smith, Portia McGriff, Stephanie Hucks
+
+[Patrick Beltran](https://github.com/pgbeltran15), [Bandana Deo](https://github.com/deobandana), [Seidi Mohammad](https://github.com/seidiali21), Caitlin Smith, Portia McGriff, Stephanie Hucks
 
 
 Topic: 
