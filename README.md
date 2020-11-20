@@ -25,5 +25,6 @@ Questions:
 
 ●	How many times would you need to play to break-even? 
 
-<img align="left" width="100" height="100" src="plmcgriff21/FinalProjectTeam3/blob/main/ReadMe-Images/Capture.JPG">
 
+
+<img align="left" width="1000" height="500" src="https://github.com/plmcgriff21/FinalProjectTeam3/blob/main/ReadMe-Images/Capture.JPG">
