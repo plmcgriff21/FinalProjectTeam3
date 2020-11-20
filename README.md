@@ -45,4 +45,4 @@ Player 6 Bandana
 
 
 ## Roles & Responsibilities
-<img align="left" width="1000" height="800" src="https://github.com/plmcgriff21/FinalProjectTeam3/blob/main/ReadMe-Images/Capture.JPG">
+<img align="left" width="1000" height="800" crop src="https://github.com/plmcgriff21/FinalProjectTeam3/blob/main/ReadMe-Images/Capture.JPG">
